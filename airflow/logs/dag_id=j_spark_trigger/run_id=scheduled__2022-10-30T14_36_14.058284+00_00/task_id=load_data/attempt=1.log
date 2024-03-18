@@ -1,0 +1,49 @@
+[2022-10-31T14:36:18.049+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: j_spark_trigger.load_data scheduled__2022-10-30T14:36:14.058284+00:00 [queued]>
+[2022-10-31T14:36:18.073+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: j_spark_trigger.load_data scheduled__2022-10-30T14:36:14.058284+00:00 [queued]>
+[2022-10-31T14:36:18.074+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-31T14:36:18.076+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-10-31T14:36:18.078+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-31T14:36:18.096+0000] {taskinstance.py:1383} INFO - Executing <Task(PostgresOperator): load_data> on 2022-10-30 14:36:14.058284+00:00
+[2022-10-31T14:36:18.109+0000] {standard_task_runner.py:54} INFO - Started process 13858 to run task
+[2022-10-31T14:36:18.115+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'j_spark_trigger', 'load_data', 'scheduled__2022-10-30T14:36:14.058284+00:00', '--job-id', '120', '--raw', '--subdir', 'DAGS_FOLDER/j_spark_trigger.py', '--cfg-path', '/tmp/tmpl3gx7j4d']
+[2022-10-31T14:36:18.118+0000] {standard_task_runner.py:83} INFO - Job 120: Subtask load_data
+[2022-10-31T14:36:18.124+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/j_spark_trigger.py
+[2022-10-31T14:36:18.554+0000] {task_command.py:384} INFO - Running <TaskInstance: j_spark_trigger.load_data scheduled__2022-10-30T14:36:14.058284+00:00 [running]> on host 77a515ad4309
+[2022-10-31T14:36:18.704+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=***@example.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=j_spark_trigger
+AIRFLOW_CTX_TASK_ID=load_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-30T14:36:14.058284+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-10-30T14:36:14.058284+00:00
+[2022-10-31T14:36:18.731+0000] {base.py:71} INFO - Using connection ID 'conn_postgres' for task execution.
+[2022-10-31T14:36:18.742+0000] {sql.py:315} INFO - Running statement: DROP TABLE IF EXISTS laureate;
+CREATE TABLE laureate (
+    id int,firstname varchar(255),surname varchar(255),born varchar(255),died varchar(255),
+    bornCountry varchar(255),bornCountryCode varchar(10),bornCity varchar(255),diedCountry varchar(255),
+    diedCountryCode varchar(255),diedCity varchar(255),gender varchar(255),year int,category varchar(255),overallMotivation varchar,
+    share int,motivation varchar,name varchar(255),city varchar(255),country varchar(255)
+);
+
+COPY laureate
+FROM '/mnt/laureate.csv'
+DELIMITER ','
+CSV HEADER;
+
+DROP TABLE IF EXISTS prize;
+CREATE TABLE prize (
+    year int,category varchar(255),overallMotivation varchar,id int,
+    firstname varchar(255),surname varchar(255),motivation varchar,share int
+);
+
+COPY prize
+FROM '/mnt/prize.csv'
+DELIMITER ','
+CSV HEADER;, parameters: None
+[2022-10-31T14:36:18.871+0000] {sql.py:324} INFO - Rows affected: 989
+[2022-10-31T14:36:18.909+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=j_spark_trigger, task_id=load_data, execution_date=20221030T143614, start_date=20221031T143618, end_date=20221031T143618
+[2022-10-31T14:36:18.988+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-10-31T14:36:19.053+0000] {local_task_job.py:273} INFO - 2 downstream tasks scheduled from follow-on schedule check

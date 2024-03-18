@@ -1,0 +1,49 @@
+[2022-10-25T16:59:21.596+0000] {processor.py:156} INFO - Started process (PID=137) to work on /opt/airflow/dags/j_spark_trigger.py
+[2022-10-25T16:59:21.599+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/j_spark_trigger.py for tasks to queue
+[2022-10-25T16:59:21.606+0000] {logging_mixin.py:117} INFO - [2022-10-25T16:59:21.605+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/j_spark_trigger.py
+[2022-10-25T16:59:21.723+0000] {processor.py:768} INFO - DAG(s) dict_keys(['j_spark_trigger']) retrieved from /opt/airflow/dags/j_spark_trigger.py
+[2022-10-25T16:59:21.882+0000] {logging_mixin.py:117} INFO - [2022-10-25T16:59:21.882+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-25T16:59:21.921+0000] {logging_mixin.py:117} INFO - [2022-10-25T16:59:21.921+0000] {dag.py:3328} INFO - Setting next_dagrun for j_spark_trigger to 2022-10-24T16:59:21.920453+00:00, run_after=2022-10-25T16:59:21.920453+00:00
+[2022-10-25T16:59:21.955+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/j_spark_trigger.py took 0.368 seconds
+[2022-10-25T16:59:52.331+0000] {processor.py:156} INFO - Started process (PID=155) to work on /opt/airflow/dags/j_spark_trigger.py
+[2022-10-25T16:59:52.335+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/j_spark_trigger.py for tasks to queue
+[2022-10-25T16:59:52.342+0000] {logging_mixin.py:117} INFO - [2022-10-25T16:59:52.342+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/j_spark_trigger.py
+[2022-10-25T16:59:52.458+0000] {processor.py:768} INFO - DAG(s) dict_keys(['j_spark_trigger']) retrieved from /opt/airflow/dags/j_spark_trigger.py
+[2022-10-25T16:59:52.624+0000] {logging_mixin.py:117} INFO - [2022-10-25T16:59:52.624+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-25T16:59:52.719+0000] {logging_mixin.py:117} INFO - [2022-10-25T16:59:52.719+0000] {dag.py:3328} INFO - Setting next_dagrun for j_spark_trigger to 2022-10-24T16:59:52.717028+00:00, run_after=2022-10-25T16:59:52.717028+00:00
+[2022-10-25T16:59:52.776+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/j_spark_trigger.py took 0.464 seconds
+[2022-10-25T17:00:23.552+0000] {processor.py:156} INFO - Started process (PID=184) to work on /opt/airflow/dags/j_spark_trigger.py
+[2022-10-25T17:00:23.559+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/j_spark_trigger.py for tasks to queue
+[2022-10-25T17:00:23.563+0000] {logging_mixin.py:117} INFO - [2022-10-25T17:00:23.562+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/j_spark_trigger.py
+[2022-10-25T17:00:23.696+0000] {processor.py:768} INFO - DAG(s) dict_keys(['j_spark_trigger']) retrieved from /opt/airflow/dags/j_spark_trigger.py
+[2022-10-25T17:00:23.886+0000] {logging_mixin.py:117} INFO - [2022-10-25T17:00:23.885+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-25T17:00:23.953+0000] {logging_mixin.py:117} INFO - [2022-10-25T17:00:23.953+0000] {dag.py:3328} INFO - Setting next_dagrun for j_spark_trigger to 2022-10-24T17:00:23.953083+00:00, run_after=2022-10-25T17:00:23.953083+00:00
+[2022-10-25T17:00:23.989+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/j_spark_trigger.py took 0.456 seconds
+[2022-10-25T17:00:54.304+0000] {processor.py:156} INFO - Started process (PID=211) to work on /opt/airflow/dags/j_spark_trigger.py
+[2022-10-25T17:00:54.307+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/j_spark_trigger.py for tasks to queue
+[2022-10-25T17:00:54.310+0000] {logging_mixin.py:117} INFO - [2022-10-25T17:00:54.310+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/j_spark_trigger.py
+[2022-10-25T17:00:54.363+0000] {processor.py:768} INFO - DAG(s) dict_keys(['j_spark_trigger']) retrieved from /opt/airflow/dags/j_spark_trigger.py
+[2022-10-25T17:00:54.439+0000] {logging_mixin.py:117} INFO - [2022-10-25T17:00:54.438+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-25T17:00:54.474+0000] {logging_mixin.py:117} INFO - [2022-10-25T17:00:54.474+0000] {dag.py:3328} INFO - Setting next_dagrun for j_spark_trigger to 2022-10-24T17:00:54.473200+00:00, run_after=2022-10-25T17:00:54.473200+00:00
+[2022-10-25T17:00:54.500+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/j_spark_trigger.py took 0.201 seconds
+[2022-10-25T17:01:24.692+0000] {processor.py:156} INFO - Started process (PID=230) to work on /opt/airflow/dags/j_spark_trigger.py
+[2022-10-25T17:01:24.693+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/j_spark_trigger.py for tasks to queue
+[2022-10-25T17:01:24.695+0000] {logging_mixin.py:117} INFO - [2022-10-25T17:01:24.695+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/j_spark_trigger.py
+[2022-10-25T17:01:24.733+0000] {processor.py:768} INFO - DAG(s) dict_keys(['j_spark_trigger']) retrieved from /opt/airflow/dags/j_spark_trigger.py
+[2022-10-25T17:01:24.793+0000] {logging_mixin.py:117} INFO - [2022-10-25T17:01:24.793+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-25T17:01:24.817+0000] {logging_mixin.py:117} INFO - [2022-10-25T17:01:24.817+0000] {dag.py:3328} INFO - Setting next_dagrun for j_spark_trigger to 2022-10-24T17:01:24.816134+00:00, run_after=2022-10-25T17:01:24.816134+00:00
+[2022-10-25T17:01:24.830+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/j_spark_trigger.py took 0.141 seconds
+[2022-10-25T17:01:55.168+0000] {processor.py:156} INFO - Started process (PID=258) to work on /opt/airflow/dags/j_spark_trigger.py
+[2022-10-25T17:01:55.170+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/j_spark_trigger.py for tasks to queue
+[2022-10-25T17:01:55.172+0000] {logging_mixin.py:117} INFO - [2022-10-25T17:01:55.172+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/j_spark_trigger.py
+[2022-10-25T17:01:55.219+0000] {processor.py:768} INFO - DAG(s) dict_keys(['j_spark_trigger']) retrieved from /opt/airflow/dags/j_spark_trigger.py
+[2022-10-25T17:01:55.347+0000] {logging_mixin.py:117} INFO - [2022-10-25T17:01:55.347+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-25T17:01:55.440+0000] {logging_mixin.py:117} INFO - [2022-10-25T17:01:55.440+0000] {dag.py:3328} INFO - Setting next_dagrun for j_spark_trigger to 2022-10-24T17:01:55.439420+00:00, run_after=2022-10-25T17:01:55.439420+00:00
+[2022-10-25T17:01:55.459+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/j_spark_trigger.py took 0.295 seconds
+[2022-10-25T17:02:25.704+0000] {processor.py:156} INFO - Started process (PID=287) to work on /opt/airflow/dags/j_spark_trigger.py
+[2022-10-25T17:02:25.706+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/j_spark_trigger.py for tasks to queue
+[2022-10-25T17:02:25.708+0000] {logging_mixin.py:117} INFO - [2022-10-25T17:02:25.708+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/j_spark_trigger.py
+[2022-10-25T17:02:25.759+0000] {processor.py:768} INFO - DAG(s) dict_keys(['j_spark_trigger']) retrieved from /opt/airflow/dags/j_spark_trigger.py
+[2022-10-25T17:02:25.815+0000] {logging_mixin.py:117} INFO - [2022-10-25T17:02:25.814+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-25T17:02:25.836+0000] {logging_mixin.py:117} INFO - [2022-10-25T17:02:25.836+0000] {dag.py:3328} INFO - Setting next_dagrun for j_spark_trigger to 2022-10-24T17:02:25.835916+00:00, run_after=2022-10-25T17:02:25.835916+00:00
+[2022-10-25T17:02:25.848+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/j_spark_trigger.py took 0.149 seconds

@@ -1,0 +1,70 @@
+[2024-03-18T19:41:34.274+0000] {processor.py:157} INFO - Started process (PID=44) to work on /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:41:34.275+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sales_transform.py for tasks to queue
+[2024-03-18T19:41:34.276+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:41:34.276+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:41:34.304+0000] {processor.py:836} INFO - DAG(s) dict_keys(['Sales_ETL']) retrieved from /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:41:34.682+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:41:34.681+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-03-18T19:41:34.704+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:41:34.704+0000] {dag.py:3490} INFO - Setting next_dagrun for Sales_ETL to 2024-03-17T19:41:34.704464+00:00, run_after=2024-03-18T19:41:34.704464+00:00
+[2024-03-18T19:41:34.788+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sales_transform.py took 0.517 seconds
+[2024-03-18T19:42:04.949+0000] {processor.py:157} INFO - Started process (PID=72) to work on /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:42:04.950+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sales_transform.py for tasks to queue
+[2024-03-18T19:42:04.950+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:42:04.950+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:42:04.966+0000] {processor.py:836} INFO - DAG(s) dict_keys(['Sales_ETL']) retrieved from /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:42:04.997+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:42:04.997+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-03-18T19:42:05.160+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:42:05.160+0000] {dag.py:3490} INFO - Setting next_dagrun for Sales_ETL to 2024-03-18T19:41:34.704464+00:00, run_after=2024-03-19T19:41:34.704464+00:00
+[2024-03-18T19:42:05.218+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sales_transform.py took 0.271 seconds
+[2024-03-18T19:42:35.385+0000] {processor.py:157} INFO - Started process (PID=91) to work on /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:42:35.386+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sales_transform.py for tasks to queue
+[2024-03-18T19:42:35.387+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:42:35.387+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:42:35.409+0000] {processor.py:836} INFO - DAG(s) dict_keys(['Sales_ETL']) retrieved from /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:42:35.438+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:42:35.438+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-03-18T19:42:35.647+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:42:35.646+0000] {dag.py:3490} INFO - Setting next_dagrun for Sales_ETL to 2024-03-18T19:41:34.704464+00:00, run_after=2024-03-19T19:41:34.704464+00:00
+[2024-03-18T19:42:35.700+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sales_transform.py took 0.320 seconds
+[2024-03-18T19:43:06.403+0000] {processor.py:157} INFO - Started process (PID=109) to work on /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:43:06.404+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sales_transform.py for tasks to queue
+[2024-03-18T19:43:06.404+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:43:06.404+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:43:06.420+0000] {processor.py:836} INFO - DAG(s) dict_keys(['Sales_ETL']) retrieved from /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:43:06.466+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:43:06.466+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-03-18T19:43:06.608+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:43:06.608+0000] {dag.py:3490} INFO - Setting next_dagrun for Sales_ETL to 2024-03-18T19:41:34.704464+00:00, run_after=2024-03-19T19:41:34.704464+00:00
+[2024-03-18T19:43:06.746+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sales_transform.py took 0.345 seconds
+[2024-03-18T19:43:36.805+0000] {processor.py:157} INFO - Started process (PID=137) to work on /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:43:36.806+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sales_transform.py for tasks to queue
+[2024-03-18T19:43:36.806+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:43:36.806+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:43:36.821+0000] {processor.py:836} INFO - DAG(s) dict_keys(['Sales_ETL']) retrieved from /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:43:37.129+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:43:37.129+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-03-18T19:43:37.153+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:43:37.153+0000] {dag.py:3490} INFO - Setting next_dagrun for Sales_ETL to 2024-03-18T19:41:34.704464+00:00, run_after=2024-03-19T19:41:34.704464+00:00
+[2024-03-18T19:43:37.729+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sales_transform.py took 0.926 seconds
+[2024-03-18T19:44:07.889+0000] {processor.py:157} INFO - Started process (PID=156) to work on /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:44:07.890+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sales_transform.py for tasks to queue
+[2024-03-18T19:44:07.891+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:44:07.891+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:44:07.905+0000] {processor.py:836} INFO - DAG(s) dict_keys(['Sales_ETL']) retrieved from /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:44:08.016+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:44:08.016+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-03-18T19:44:08.035+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:44:08.034+0000] {dag.py:3490} INFO - Setting next_dagrun for Sales_ETL to 2024-03-18T19:41:34.704464+00:00, run_after=2024-03-19T19:41:34.704464+00:00
+[2024-03-18T19:44:08.204+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sales_transform.py took 0.316 seconds
+[2024-03-18T19:44:38.427+0000] {processor.py:157} INFO - Started process (PID=184) to work on /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:44:38.428+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sales_transform.py for tasks to queue
+[2024-03-18T19:44:38.429+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:44:38.429+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:44:38.442+0000] {processor.py:836} INFO - DAG(s) dict_keys(['Sales_ETL']) retrieved from /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:44:38.468+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:44:38.468+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-03-18T19:44:38.489+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:44:38.489+0000] {dag.py:3490} INFO - Setting next_dagrun for Sales_ETL to 2024-03-18T19:41:34.704464+00:00, run_after=2024-03-19T19:41:34.704464+00:00
+[2024-03-18T19:44:38.537+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sales_transform.py took 0.112 seconds
+[2024-03-18T19:45:08.578+0000] {processor.py:157} INFO - Started process (PID=203) to work on /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:45:08.578+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sales_transform.py for tasks to queue
+[2024-03-18T19:45:08.579+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:45:08.578+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:45:08.592+0000] {processor.py:836} INFO - DAG(s) dict_keys(['Sales_ETL']) retrieved from /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:45:08.614+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:45:08.614+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-03-18T19:45:08.635+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:45:08.635+0000] {dag.py:3490} INFO - Setting next_dagrun for Sales_ETL to 2024-03-18T19:41:34.704464+00:00, run_after=2024-03-19T19:41:34.704464+00:00
+[2024-03-18T19:45:09.032+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sales_transform.py took 0.456 seconds
+[2024-03-18T19:45:39.179+0000] {processor.py:157} INFO - Started process (PID=231) to work on /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:45:39.180+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sales_transform.py for tasks to queue
+[2024-03-18T19:45:39.181+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:45:39.181+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:45:39.194+0000] {processor.py:836} INFO - DAG(s) dict_keys(['Sales_ETL']) retrieved from /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:45:39.219+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:45:39.219+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-03-18T19:45:39.240+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:45:39.240+0000] {dag.py:3490} INFO - Setting next_dagrun for Sales_ETL to 2024-03-18T19:41:34.704464+00:00, run_after=2024-03-19T19:41:34.704464+00:00
+[2024-03-18T19:45:39.278+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sales_transform.py took 0.100 seconds
+[2024-03-18T19:46:09.340+0000] {processor.py:157} INFO - Started process (PID=250) to work on /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:46:09.341+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sales_transform.py for tasks to queue
+[2024-03-18T19:46:09.342+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:46:09.342+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:46:09.356+0000] {processor.py:836} INFO - DAG(s) dict_keys(['Sales_ETL']) retrieved from /opt/airflow/dags/sales_transform.py
+[2024-03-18T19:46:09.382+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:46:09.382+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-03-18T19:46:09.404+0000] {logging_mixin.py:149} INFO - [2024-03-18T19:46:09.404+0000] {dag.py:3490} INFO - Setting next_dagrun for Sales_ETL to 2024-03-18T19:41:34.704464+00:00, run_after=2024-03-19T19:41:34.704464+00:00
+[2024-03-18T19:46:09.599+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sales_transform.py took 0.261 seconds
