@@ -20,7 +20,7 @@ git clone https://github.com/Zephyrus009/Automated-Sales-Dashboard.git
 
 2. Move to spark-dag folder where you can place your spark jobs.
 
-please change [YOUR USER] and [YOUR PASSWORD] in write_to_postgres function
+    *** please change [YOUR USER] and [YOUR PASSWORD] in write_to_postgres function
 
 3. Now build the Docker 
 
