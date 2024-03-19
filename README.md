@@ -7,7 +7,7 @@ This is a Implementation of Fecting data from a soucre, pass the raw data throug
 
 1. Database source - Supabase (postgresql)
 2. Transformation Tool - Apache Spark
-3. Orchestation Tool - Apache Airflow
+3. Orchestration Tool - Apache Airflow
 4. visualization tool - Apache Superset
 
 ## Steps to Initialize the project
